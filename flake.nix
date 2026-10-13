@@ -29,6 +29,7 @@
             # other tools
             pkgs.just
             pkgs.fd
+            pkgs.nixfmt
           ];
         };
       }
