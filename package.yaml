@@ -1,0 +1,16 @@
+name: example
+version: 0.1.0.0
+synopsis: An example Haskell executable
+license: MIT
+license-file: LICENSE.txt
+
+dependencies:
+  - base >= 4.7 && < 5
+
+ghc-options:
+  - -Wall
+
+executables:
+  example:
+    main: Main.hs
+    source-dirs: app
