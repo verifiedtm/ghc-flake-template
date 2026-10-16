@@ -26,10 +26,14 @@
             pkgs.hlint
             pkgs.fourmolu
 
+            # nix tools
+            pkgs.nixfmt
+            pkgs.statix
+            pkgs.deadnix
+
             # other tools
             pkgs.just
             pkgs.fd
-            pkgs.nixfmt
           ];
         };
       }
